@@ -1,0 +1,29 @@
+{
+  "name": "header-parser",
+  "version": "1.0.0",
+  "description": "Header parser: IP Address(dns resolved), OS version and Browser Language. ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/y0na4an/header-parser.git"
+  },
+  "keywords": [
+    "header-parser",
+    "dns",
+    "OS",
+    "version"
+  ],
+  "author": "Yonatan H. Fessehaye",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/y0na4an/header-parser/issues"
+  },
+  "homepage": "https://github.com/y0na4an/header-parser#readme",
+  "dependencies": {
+    "dns": "^0.2.2",
+    "express": "^4.16.2"
+  }
+}
